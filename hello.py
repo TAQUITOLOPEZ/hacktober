@@ -22,5 +22,9 @@ def multiplicacion(x,y):
 def modulo(x,y):
   """Esta funcion hace una suma"""
 
+def potencia(x,n):
+	return x ** n
+
+print(potencia(5,2))
 if __name__ == "__main__":
     print(division(10,5))
